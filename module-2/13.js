@@ -1,4 +1,23 @@
+function slugify(title) {
+  // Change code below this line
+    
+    const normalizedTitle = title.toLowerCase();
+    const words = normalizedTitle.split(' ');
+    const slug = words.join('-');
 
+    return slug;
+  // Change code above this line
+}
+
+function slugify(title) {
+  // Change code below this line
+
+const slug = title.toLowerCase().split(' ').join('-');
+  
+  return slug;
+
+  // Change code above this line
+}
 
 // Задача: генератор slug
 // Задание
