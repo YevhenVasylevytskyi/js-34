@@ -1,15 +1,15 @@
 function getExtremeElements(array) {
   // Change code below this line
-//   const array = [];
-// console.log (getExtremeElements[0])/*, getExtremeElements.length -1*/;
+  
+  const firstElement = array[0];  
+  const lastElementIndex = array.length - 1;
+  const lastElement = array[lastElementIndex];
+  
+return [firstElement, lastElement];
 
   // Change code above this line
 }
 
-getExtremeElements([1, 2, 3, 4, 5]);
-getExtremeElements(["Earth", "Mars", "Venus"]);
-getExtremeElements(["apple", "peach", "pear", "banana"]);
-console.log (getExtremeElements[0]);
 // Задача: Крайние элементы массива
 // Задание
 // Напиши функцию getExtremeElements(array) которая принимает один параметр array - массив элементов произвольной длины. Функция должна возвращать массив из двух элементов - первого и последнего элемента параметра array.
