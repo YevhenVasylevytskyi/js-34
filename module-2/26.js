@@ -1,4 +1,13 @@
+function calculateTotalPrice(order) {
+  let total = 0;
+  // Change code below this line
+	  for (element of order) {
+    total += element;
+  }
 
+  // Change code above this line
+  return total;
+}
 
 
 // Цикл for...of
