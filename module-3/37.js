@@ -3,7 +3,7 @@ const atTheOldToad = {
   potions: ['Speed potion', 'Dragon breath', 'Stone skin'],
   
   getPotions() {
-  	return this.potions[i];
+  	return this.potions;
   }
   // Change code above this line
 };
