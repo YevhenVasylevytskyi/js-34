@@ -5,13 +5,20 @@ function calculateTotalPrice(orderedItems) {
   //for (let i = 0; i < orderedItems.length; i += 1) {
   //  totalPrice += orderedItems[i];
   //}
-  orderedItems.forEach(orderedItem =>{
+//   orderedItems.forEach(orderedItem =>{
+//         totalPrice += orderedItem;                     
+//   });
+    
+    orderedItems.forEach(function (orderedItem) {
         totalPrice += orderedItem;                     
-    });
+  });
+    
 
   // Пиши код выше этой строки
   return totalPrice;
 }
+
+console.log(calculateTotalPrice([12, 85, 37, 4]));
 // Метод forEach(callback)
 // Перебирающий метод массива, который используется как замена циклов for и for...of при работе с коллекцией.
 
