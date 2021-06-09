@@ -1,4 +1,14 @@
+// Пиши код ниже этой строки
 
+//function calculateTotalPrice(quantity, pricePerItem) {
+  // Пиши код выше этой строки
+//  return quantity * pricePerItem;
+//}
+
+const calculateTotalPrice = (quantity, pricePerItem) => {
+  // Пиши код выше этой строки
+  return quantity * pricePerItem;
+}
 
 // Стрелочные функции.
 // Стрелочные функции имеют сокращённый, более лаконичный синтаксис, что уменьшает объем кода, особенно когда функция маленькая или если она используется как коллбек.
